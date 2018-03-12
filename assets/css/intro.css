@@ -1,0 +1,173 @@
+/* Intro section starts*/
+
+
+/* Screens over 320px wide*/
+
+@media only screen and (min-width:320px){
+
+.intro-wrap {
+	background-image: url("../assets/swoop-background.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 500px;
+	align-content: center;
+	justify-content: center;
+}
+
+
+.swoop-logo-main {
+	text-align: center;
+	padding-top: 140px;
+}
+
+
+.swoop-logo-main img {
+	width: 70%;
+	height: 70%;
+}
+
+
+.intro-text {
+	font-family: "Gotham-Light", sans-serif;
+	font-size: 18px;
+	color: #060300;
+	text-align: center;
+	padding-right: 70px;
+	padding-left: 70px;
+}
+
+
+.company-wrap {
+	background-color: #238DC1;
+	width: 100%;
+}
+
+
+.company-text {
+	padding: 40px;
+}
+
+
+}
+
+
+
+
+/* Screens over 768px wide*/
+
+@media only screen and (min-width:768px) {
+
+
+.intro-wrap {
+	background-image: url("../assets/swoop-background-ipad.png");
+	width: 100%;
+	height: 600px;
+}
+
+
+.swoop-logo-main {
+	padding-top: 0px;
+}
+
+
+.company-text {
+	padding: 60px;
+}
+
+
+}
+
+
+
+/* Screens over 1024px wide*/
+
+@media only screen and (min-width:1024px) { 
+    /* STYLES HERE */
+
+
+.intro-wrap {
+	background-image: url("../assets/swoop-background-ipad-1024.png");
+	height: 660px;
+	width: 100%;
+}
+
+
+.swoop-logo-main {
+	padding-top: 160px;
+
+}
+
+
+.swoop-logo-main img {
+	width: 500px;
+	height:158px;
+}
+
+
+.company-text {
+	width: 700px;
+	margin: auto;
+	padding: 80px;
+}
+
+
+
+}
+
+
+/* Screens over 1440px wide*/
+
+@media only screen and (min-width:1440px) { 
+    /* STYLES HERE */
+
+
+.intro-wrap {
+	height: 700px;
+}
+
+
+.swoop-logo-main img {
+	width: 700px;
+	height:220px;
+}
+
+
+.intro-text {
+	text-align: center;
+}
+
+.intro-text h2 {
+	font-family: "Gotham-Light", sans-serif;
+	font-size: 24px;
+	color: #060300;
+	text-align: center;
+}
+
+
+.company-text {
+	width: 1000px;
+	text-align: center;
+}
+
+
+
+
+}
+
+
+/* Screens over 1700px wide*/
+
+@media only screen and (min-width:1700px) {
+
+
+.intro-wrap {
+	height: 800px;
+}
+
+.swoop-logo-main {
+	padding-top: 200px;
+}
+
+}

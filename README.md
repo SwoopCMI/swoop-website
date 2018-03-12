@@ -1,31 +1,109 @@
 # swoop-website
 
-Jekyll based, served automatically from Github using the `gh-pages` branch.
+Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
 
-## Local development:
+To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
 
-Work on the correct branch:
+TODO: Delete this and the text above, and describe your gem
 
-`git checkout gh-pages`
 
-Ensure you have the correct version of Ruby - see  [Requirements](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/#requirements)
-(When installing bundler, you may need to use `sudo gem install bundler`)
+## Installation
 
-Then install all the required libs for Jekyll.
+Add this line to your Jekyll site's `Gemfile`:
 
-`bundle install`
+```ruby
+gem "swoop-website"
+```
 
-If that worked fine, you can view your site using:
+And add this line to your Jekyll site's `_config.yml`:
 
-`bundle exec jekyll serve`
+```yaml
+theme: swoop-website
+```
 
-# Troubleshooting
+And then execute:
 
-There were some problems installing then nokogiri gem on Glen's Mac.  To resolve, you need to install a missing dependency:
+    $ bundle
 
-`brew install libxml2`
+Or install it yourself as:
 
-Then install the nokogiri gem 'manually'.  This command works for me, you may need to change the version of nokogiri - read the error output from bundle install to see what it tried to install and grab the version from that, replacing '1.6.8.1' in the command below with the right version.
-Also, the path to the libxml2 library includes may differ on your Mac - check the long path and edit as appropriate.
+    $ gem install swoop-website
 
-`sudo gem install nokogiri -v '1.6.8.1' -- --with-xml2-include=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/libxml2 --use-system-libraries`
+## Usage
+
+TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+
+## Development
+
+To set up your environment to develop this theme, run `bundle install`.
+
+Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+
+When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
+To add a custom directory to your theme-gem, please edit the regexp in `swoop-website.gemspec` accordingly.
+
+## Getting started
+You will need at least Ruby version 2.2.5 – run `ruby -v` to check your version number. If you have a Ruby version lower than 2.2.5 the quickest way to get set up is using `rvm`. [Instructions here](https://rvm.io/rvm/install#1-download-and-run-the-rvm-installation-script).
+
+You will also need to install Jekyll and Bundler. 
+
+```
+gem install jekyll
+gem install bundler
+```
+
+Once this has been done you should also download any dependencies using `bundler` 
+```
+bundle install
+```
+
+Now you should be able to start the Jekyll server (if any further steps are required, feel free to update this document!)
+```
+jekyll serve
+```
+
+If all has gone to plan you should be able to view the site at [http://127.0.0.1:4000](http://127.0.0.1:4000).
+
+## Setting up a preview URL using ngrok
+If you need to publish your local Jekyll server for any reason this can be done using Ngrok. First, [download ngrok](https://ngrok.com/download).
+
+Once the ngrok application has been downloaded, move it into your Applications directory (You may need to unzip it first). 
+```
+mv ~/Downloads/ngrok ~/Applications
+```
+
+Create a symlink to the Ngrok application so it's launchable from any directory on the command line. Cd into your local bin directory
+```
+cd /usr/local/bin
+```
+
+Create the symlink
+```
+ln -s /Applications/ngrok ngrok
+```
+
+To test everything is working, run
+```
+ngrok
+```
+
+To publish the local Jeykll server, make sure the Jekyll server is running. Start it using
+```
+jekyll serve
+```
+
+Now you can publish your local server using
+```
+ngrok http 127.0.0.1:4000
+```
+
+Happy testing!
+
+## License
+
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+

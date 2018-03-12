@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFF;
+}
+
+@font-face { 
+	font-family: 'Gotham-Light'; 
+	src: url('../fonts/gotham-light.ttf') format('truetype');
+}
+
+
+
+@font-face { 
+	font-family: 'OpenSans-Regular'; 
+	src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+
+@media only screen and (min-width:320px) {
+
+
+h1 {
+	font-family: "Gotham-Light";
+	font-size: 28px;
+	line-height: 42px;
+	text-align: left;
+	color: #4A4A4A;
+	margin: 0;
+
+}
+
+
+h2 {
+	font-family: "Gotham-Light";
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: 30px;
+}
+
+
+h3 {
+	font-family: "OpenSans-Regular";
+	font-size: 16px;
+	line-height: 28px;
+	font-weight: normal;
+	color: #FFF;
+}
+
+
+h4 {
+	font-family: "Gotham-Light";
+	font-size: 16px;
+	color: #FFF;
+}
+
+
+p {
+	font-family: "OpenSans-Regular";
+	font-size: 14px;
+	line-height: 26px;
+	text-align: left;
+	color: #4A4A4A;
+}
+
+}
+
+
+/* Screens under 768px wide*/
+
+@media only screen and (min-width:768px) { 
+    /* STYLES HERE */
+
+
+h1 {
+    font-size: 36px;
+	line-height: 48px;
+}
+
+
+h3 {
+	text-align: left;
+}
+
+
+p {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+
+}
+
+
+/* Screens over 1024px wide*/
+
+@media only screen and (min-width:1024px) {
+
+
+h3 {
+	text-align: center;
+}
+
+
+h1 {
+    font-size: 42px;
+	line-height: 84px;
+	text-align: center;
+
+
+}
+
+
+@media only screen and (min-width:1440px) {
+
+
+h3 {
+	font-size: 18px;
+	line-height: 36px; 
+}
+
+
+}
+
+
+
+
+@media only screen and (min-width:1700px) {
+
+
+h1 {
+	font-size: 44px;
+	line-height: 88px;
+}
+
+
+h3 {
+	font-size: 18px;
+	line-height: 36px;
+}
+
+}

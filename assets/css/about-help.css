@@ -1,0 +1,211 @@
+/* Help starts*/
+
+
+/* Screens over 320px wide*/
+
+@media only screen and (min-width:320px){
+
+
+.about-help-wrap {
+	background-color: #FFF;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}
+
+.help-section {
+	padding: 40px;
+}
+
+
+.help-section h1 {
+	padding-top: 0px;
+	color: #238DC1;
+}
+
+
+.help-icons {
+	text-align: center;
+	padding: 40px 0px;
+}
+
+
+.help-icons img {
+	width: 222px;
+	height: 239px;
+}
+
+
+.help-icons-multi {
+	display: none;
+}
+
+
+.list-float ul {
+    color: #238DC1;
+}
+
+
+
+}
+
+
+
+/* Help starts*/
+
+
+/* Screens over 768px wide*/
+
+@media only screen and (min-width:768px){
+
+
+
+.help-section {
+	padding: 60px;
+}
+
+
+
+.help-icons {
+	display: none;
+}
+
+
+.help-icons-multi {
+	display: inherit;
+	text-align: center;
+	padding: 40px 0px;
+}
+
+
+.help-section ul > li {
+    color: #238DC1;
+}
+
+
+
+}
+
+
+
+/* Screens over 1024px wide*/
+
+@media only screen and (min-width:1024px){
+
+
+.about-help-wrap {
+	text-align: center;
+}
+
+
+
+.help-section {
+	padding: 80px;
+	display: inline-block;
+}
+
+
+.help-section h1 {
+	text-align: left;
+}
+
+
+.help-icons {
+	background-position: center;
+}
+
+
+
+.help-section p {
+	text-align: left;
+}
+
+
+.help-float-left {
+	float: left;
+	width: 360px;
+}
+
+
+.help-float-right {
+	float: right;
+	width: 400px;
+	padding-top: 30px;
+}
+
+
+.help-icons-multi {
+	padding: 0px;
+}
+
+
+.help-icons-multi img {
+	width: 100%;
+	height: 100%;
+}
+
+
+.list-float {
+	clear: both;
+	text-align: center;
+	width: 800px;
+}
+
+
+.list-float ul {
+	display: flex;
+	padding-top: 40px;
+}
+
+
+.about-list {
+	width: 220px;
+	padding: 0px 30px;
+}
+
+
+.about-list li p {
+	text-align: left;
+}
+
+
+
+}
+
+
+
+
+/* Screens over 1440px wide*/
+
+@media only screen and (min-width:1440px){
+
+.help-section {
+	width: 1200px;
+}
+
+
+.help-float-right {
+	width: 50%;
+}
+
+
+.help-float-left {
+	width: 35%;
+}
+
+
+.list-float {
+	width: 100%;
+}
+
+
+.about-list {
+	width: 300px;
+	padding: 60px;
+}
+
+
+
+
+
+}

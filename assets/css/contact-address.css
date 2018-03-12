@@ -1,0 +1,177 @@
+/* Contact-address section starts*/
+
+
+/* Screens over 320px wide*/
+
+@media only screen and (min-width:320px) {
+
+.contact-address-wrap {
+	width: 100%;
+	background-color: #FFF;
+}
+
+
+.contact-address {
+	padding: 40px;
+}
+
+
+.contact-address h1 {
+	color: #238DC1;
+}
+
+
+.address h2 {
+	color: #238DC1;
+	margin-top: 60px;
+}
+
+
+.address-text {
+	width: 180px;
+}
+
+
+.address-text h3 {
+	color: #238DC1;
+	margin-bottom: 0px;
+}
+
+
+.address-text p {
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+
+.address-image img {
+	width: 245px;
+	height: 100%;
+}
+
+}
+
+
+
+/* Screens over 768px wide*/
+
+@media only screen and (min-width:768px) {
+
+
+.address-wrap {
+	display: inline-block;
+	margin: auto;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+
+.contact-address {
+	text-align: center;
+	padding: 60px 40px 40px 40px;
+}
+
+
+.contact-address h1 {
+	text-align: center;
+}
+
+
+.address {
+	float: left;
+	margin: 0px 20px;
+	width: 300px;
+}
+
+
+.address-text {
+	float: left;
+	display: inline-block;
+	width: 150px;
+}
+
+
+.address-text h3 {
+	text-align: left;
+}
+
+
+.address-text p {
+	margin-bottom: 8px;
+	font-size: 14px;
+	line-height: 26px;
+}
+
+
+.clearfix {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+}
+
+
+
+
+/* Screens over 1024px wide*/
+
+@media only screen and (min-width:1024px) {
+
+
+.address {
+	margin: 0px 40px;
+	width: 380px;
+}
+
+
+.address-text {
+	width: 160px;
+}
+
+
+.address-image img {
+	width: 380px;
+}
+
+
+.contact-address {
+	text-align: center;
+	padding: 80px 40px 40px 40px;
+}
+
+
+}
+
+
+
+
+/* Screens over 1440px wide*/
+
+@media only screen and (min-width:1440px) {
+
+.contact-address h1 {
+	font-size: 42px;
+	line-height: 84px;
+}
+
+
+.contact-scroll {
+	margin-top: 40px;
+}
+
+
+.address {
+	margin: 0px 60px;
+	width: 440px;
+}
+
+
+.address-image img {
+	width: 440px;
+}
+
+
+
+}

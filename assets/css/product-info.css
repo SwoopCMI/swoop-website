@@ -1,0 +1,99 @@
+/* Product-information section starts*/
+
+
+/* Screens over 320px wide*/
+
+@media only screen and (min-width:320px) {
+
+.product-info-wrap {
+	background-color: #F9F9F9;
+	background-position: center;
+	width: 100%;
+	align-content: center;
+	justify-content: center;
+	clear: both;
+	padding-bottom: 60px;
+}
+
+
+.product-information {
+	padding: 0px 40px;
+}
+
+
+.product-information-text h3 {
+	color: #4A4A4A;
+}
+
+
+}
+
+
+
+/* Screens over 768px wide*/
+
+@media only screen and (min-width:768px) {
+
+.product-information {
+	padding: 0px 60px;
+}
+
+
+.product-information h1 {
+	text-align: left;
+}
+
+}
+
+
+
+
+
+/* Screens over 1024px wide*/
+
+@media only screen and (min-width:1024px) {
+
+.product-information-text {
+	width: 700px;
+	margin: auto;
+	text-align: center;
+}
+
+
+.product-information {
+	padding: 0px 80px;
+}
+
+
+.product-information h1 {
+	text-align: center;
+	font-size: 36px;
+	line-height: 72px;
+}
+
+
+.benefits-text {
+	width: 700px;
+	margin: auto;
+}
+
+
+}
+
+
+
+
+/* Screens over 1440px wide*/
+
+@media only screen and (min-width:1440px) {
+
+.product-information h1 {
+	font-size: 42px;
+	line-height: 84px;
+	text-align: center;
+}
+
+}
+
+
+

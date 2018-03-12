@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="680px" height="480px" viewBox="0 0 680 480" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Video</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="iPad" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-41.000000, -2161.000000)">
+        <g id="SOFTWARE-//-SWOOP" transform="translate(0.000000, 1760.000000)">
+            <g id="Video" transform="translate(41.000000, 401.000000)">
+                <rect id="Video-Placeholder" fill="#F9F9F9" x="0" y="0" width="680" height="480" rx="10"></rect>
+                <g id="Play-button" transform="translate(307.000000, 204.000000)">
+                    <ellipse id="Oval" fill="#FFFFFF" cx="36.5" cy="36" rx="36.5" ry="36"></ellipse>
+                    <polygon id="Path-5" stroke="#D8D8D8" fill="#D8D8D8" stroke-linecap="round" stroke-linejoin="round" points="27.1751825 24.7007299 27.1751825 47.2992701 46.3576642 36"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

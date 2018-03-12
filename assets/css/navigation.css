@@ -1,0 +1,306 @@
+/* Navigation section starts here*/
+
+/* Screens over 320px wide*/
+
+@media only screen and (min-width:320px) {
+
+.navigation-bar {
+	width: 100%;
+	height: 40px;
+	background-color: #FFF;
+	z-index: 100;
+	position: fixed;
+	border-bottom-style: solid;
+	border-bottom-color: #FBFBFB;
+	border-bottom-width: 2px;
+	opacity: 0.98;
+}
+
+
+.nav-swoop-logo {
+  position: absolute;
+  top: 6px;
+  left: 10px;
+}
+
+
+.nav-menu {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	display: inline-block;
+}
+
+
+.nav-menu img {
+	padding-left: 5px;
+	width: 82px;
+    height: 27px;
+}
+
+
+
+.nav-menu li {
+	font-family: "Gotham-Light", sans-serif;
+	font-size: 14px;
+	color: #060300;
+	text-decoration: none;
+}
+
+
+.nav-menu-1024 {
+	display: none;
+}
+
+
+.mobile-header-full {
+	display: none;
+}
+
+
+.nav a {
+    display: none;
+}
+
+
+.nav-menu span {
+	font-family: "Gotham-Light";
+	color: #060300;
+}
+
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 101;
+    top: 0;
+    right: 0;
+    background-color: #238DC1;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+
+.overlay-content {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    min-width: 280px;
+    text-align: center;
+}
+
+
+.overlay a {
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #FFF;
+    display: block;
+    transition: 0.3s;
+    font-family: "Gotham-Light";
+}
+
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+
+.overlay .closebtn {
+    position: absolute;
+    top: 8px;
+    right: 18px;
+    font-size: 24px;
+    font-family: "Gotham-Light";
+    color: #FFF;
+    padding: 0px;
+}
+
+
+.overlay ul {
+	padding: inherit;
+	list-style-type: none;
+}
+
+
+#phone {
+	font-family: "Gotham-Light";
+	margin-top: 40px;
+}
+
+
+#button {
+	background-color: #FFF;
+	color: #238DC1;
+	border-radius: 32px;
+	cursor: pointer;
+	width: 200px;
+	margin: auto;
+	font-family: "Gotham-Light";
+}
+
+
+
+.nav-menu .book-a-demo {
+	display: none;
+}
+
+
+}
+
+
+/* Screens over 768px wide*/
+
+@media only screen and (min-width:768px) { 
+    /* STYLES HERE */
+
+.navigation-bar {
+	height: 50px;
+	
+}
+
+
+.nav-swoop-logo {
+  top: 10px;
+}
+
+
+.nav-menu {
+	top: 14px;
+}
+
+
+.nav-menu img {
+	width: 14px;
+}
+
+
+.nav-menu a {
+	font-size: 16px;
+}
+
+.nav-menu .book-a-demo {
+	float: left;
+	padding-right: 20px;
+	display: inline-block;
+	border: none;
+	background: none;
+}
+
+
+.nav-menu .book-a-demo #button {
+	background-color: #238DC1;
+	color: #FFF;
+	cursor: pointer;
+	padding: 5px 10px;
+	text-decoration: none;
+	-webkit-appearance: textfield;
+}
+
+
+.book-a-demo {
+	margin-top: -4px;
+}
+
+
+
+}
+
+
+
+
+/* Screens over 1024px wide*/
+
+@media only screen and (min-width:1024px) { 
+    /* STYLES HERE */
+
+.navigation-bar {
+	height: 60px;
+}
+
+
+.nav-swoop-logo {
+  top: 14px;
+  left: 14px;
+}
+
+
+.nav-swoop-logo img {
+	width: 87px;
+    height: 29px;
+}
+
+
+.nav-menu {
+	display: none;
+}
+
+
+
+.nav-menu-1024 {
+	display: inline-block;
+	position: absolute;
+	top: 4px;
+	right: 0px;	
+}
+
+
+.nav-menu-1024 li {
+	font-family: "Gotham-Light", sans-serif;
+	font-size: 16px;
+	float: left;
+	margin: 0px 24px;
+	text-align: center;
+	list-style-type: none;
+}
+
+
+.nav-menu-1024 a {
+	text-decoration: none;
+	color: #060300;
+}
+
+
+.nav-menu-1024 li:hover {
+	border-bottom: solid;
+	border-color: #135B7E;
+	height: 38px;
+}
+
+
+.nav-menu-1024 li.active {
+	color: #238DC1;
+}
+
+
+#button {
+	background-color: #238DC1;
+	color: #FFF;
+	border-radius: 32px;
+	cursor: pointer;
+	padding: 8px 20px;
+}
+
+#phone {
+	font-family: "Gotham-Light"
+}
+
+
+}
+
+
+/* Screens under 1440px wide*/
+
+@media only screen and (min-width:1440px) { 
+    /* STYLES HERE */
+
+
+
+.nav-menu-1024 li {
+	margin: 0px 48px;
+}
+
+
+}
+

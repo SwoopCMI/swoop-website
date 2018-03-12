@@ -1,0 +1,90 @@
+/* Callout section starts*/
+
+
+/* Screens over 320px wide*/
+
+@media only screen and (min-width:320px) {
+
+.callout-wrap {
+	background-color: #F9F9F9;
+	background-position: center;
+	width: 100%;
+}
+
+
+.callout {
+	padding: 40px;
+}
+
+
+.callout-text h3 {
+	color: #4A4A4A;
+}
+
+
+}
+
+
+
+/* Screens over 768px wide*/
+
+@media only screen and (min-width:768px) {
+
+.callout {
+	padding: 60px;
+}
+
+}
+
+
+
+
+
+/* Screens over 1024px wide*/
+
+@media only screen and (min-width:1024px) {
+
+.callout-text {
+	width: 700px;
+	margin: auto;
+	text-align: center;
+}
+
+
+.callout {
+	padding: 80px;
+}
+
+
+.callout h1 {
+	text-align: center;
+	font-size: 36px;
+	line-height: 72px;
+}
+
+
+
+
+/* Screens over 1440px wide*/
+
+@media only screen and (min-width:1440px) {
+
+.callout h1 {
+	font-size: 42px;
+	line-height: 84px;
+	text-align: center;
+}
+
+}
+
+
+/* Screens over 1700px wide*/
+
+@media only screen and (min-width:1700px) {
+
+.callout-text {
+	width: 800px;
+
+}
+
+}

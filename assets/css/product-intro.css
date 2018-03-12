@@ -1,0 +1,211 @@
+/* Product-intro section starts*/
+
+
+/* Screens over 320px wide*/
+
+@media only screen and (min-width:320px) {
+
+.product-intro-wrap {
+    background-image: url("../assets/product/product-background@2x.png");
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 500px;
+	position: relative;
+	margin: auto;
+}
+
+
+.product-logo {
+	padding-top: 120px;
+	text-align: center;
+}
+
+
+.product-logo img {
+	width: 200px:
+	height: 31px;
+}
+
+
+.product-laptop {
+	text-align: center;
+}
+
+
+.product-laptop img {
+	width: 300px;
+	height: 166px;
+}
+
+
+.laptop-screens {
+	text-align: center;
+}
+
+
+.laptop-screens img {
+	width: 212px;
+	height: 124px;
+	position: relative;
+	left: 0;
+	top: 147px;
+}
+
+
+.laptop-wrap {
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	left: 0;
+	right: 0;
+	margin-bottom: -4px;
+}
+
+}
+
+
+/* Screens over 768px wide*/
+
+@media only screen and (min-width:768px) {
+
+.product-intro-wrap {
+	height: 600px;
+}
+
+
+.product-laptop img {
+	width: 600px;
+	height: 322px;
+}
+
+
+.product-logo img {
+	width: 260px;
+	height: 100%;
+}
+
+
+.laptop-screens {
+	position: relative;
+	right: 1px;
+}
+
+
+.laptop-screens img {
+	width: 412px;
+	height: 242px;
+	top: 282px;
+}
+
+
+
+}
+
+
+
+/* Screens over 1024px wide*/
+
+@media only screen and (min-width:1024px) {
+
+
+.product-intro-wrap {
+	height: 660px;
+}
+
+
+.product-logo {
+	padding-top: 140px;
+}
+
+
+.product-laptop img {
+	height: 400px;
+	width: 100%;
+}
+
+
+.product-logo img {
+	width: 280px;
+}
+
+
+.laptop-screens {
+	position: relative;
+	top: 67px;
+	right: 2px;
+}
+
+
+.laptop-screens img {
+	width: 514px;
+	height: 300px;
+}
+
+
+}
+
+
+
+
+/* Screens over 1440px wide*/
+
+@media only screen and (min-width:1440px) {
+
+
+.product-intro-wrap {
+	height: 700px;
+}
+
+
+.product-laptop img {
+	height: 445px;
+}
+
+.laptop-screens {
+	position: relative;
+	top: 152px;
+	right: 2px;
+}
+
+.laptop-screens img {
+	width: 570px;
+	height: 334px;
+}
+
+
+.laptop-screens {
+	top: 106px;
+}
+
+
+}
+
+
+
+
+/* Screens over 1700px wide*/
+
+@media only screen and (min-width:1700px) {
+
+
+.product-intro-wrap {
+	height: 800px;
+}
+
+
+.product-laptop img {
+	height: 500px;
+}
+
+.laptop-screens {
+	position: relative;
+	top: 152px;
+}
+
+.laptop-screens img {
+	width: 640px;
+	height: 374px;
+}
+
+}

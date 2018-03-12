@@ -1,0 +1,160 @@
+/* Customers section starts*/
+
+
+/* Screens under 320px wide*/
+
+@media only screen and (min-width:320px) {
+
+
+.customers-wrap {
+	background-color: #FFF;
+	width: 100%;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.customers {
+	padding: 40px;
+}
+
+
+.customers-wrap h1 {
+	text-align: center;
+	color: #238DC1;	
+}
+
+
+.logo {
+	padding-top: 30px;
+}
+
+
+.logo img {
+	width: 240px;
+	height: 185px;
+}
+
+
+}
+
+
+
+
+/* Screens over 768px wide*/
+
+@media only screen and (min-width:768px) { 
+
+
+
+.customers-wrap {
+	display: inline-block;
+}
+
+
+.customers {
+	padding: 60px;
+}
+
+
+.logo {
+	text-align: center;
+	float: left;
+	padding-top: 0px;
+}
+
+
+.logo img {
+	width: 280px; 
+	height: 216px;
+}
+
+
+.logos-wrap {
+	width: 580px;
+	margin: auto;
+	padding-top: 40px;
+}
+
+
+.table {
+	content: "";
+    display: table;
+    clear: both;
+}
+
+
+}
+
+
+/* Screens under 1024px wide*/
+
+@media only screen and (min-width:1024px) { 
+    /* STYLES HERE */
+
+
+.customers-wrap {
+	display: inline-block;
+}
+
+
+.customers {
+	padding: 80px;
+}
+
+
+.logo {
+	text-align: center;
+	float: left;
+	padding-top: 0px;
+}
+
+
+.logo img {
+	width: 220px;
+	height: 100%; 
+}
+
+
+.logos-wrap {
+	width: 880px;
+	padding: 40px 0px;
+}
+
+.customers-wrap h1 {
+    font-size: 36px;
+    line-height: 72px;
+    text-align: center;
+}
+
+}
+
+
+
+/* Screens over 1440px wide*/
+
+@media only screen and (min-width:1440px) { 
+
+
+
+.customers-wrap h1 {
+	font-size: 42px;
+	line-height: 84px;
+}
+
+
+.logo img {
+	width: 240px;
+	height: 185px; 
+}
+
+
+.logos-wrap {
+	width: 960px;
+	margin: auto;
+	padding-top: 40px;
+}
+
+
+}
+

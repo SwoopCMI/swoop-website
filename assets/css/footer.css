@@ -1,0 +1,263 @@
+/* foter section starts*/
+
+
+/* Screens over 320px wide*/
+
+@media only screen and (min-width:320px) {
+
+
+.footer {
+	background-color: #238DC1;
+	background-position: center;
+	width: 100%;
+	padding: 40px 0px;
+}
+
+
+.footer-menu ul {
+	list-style-type: none;
+	padding: inherit;
+}
+
+
+.footer-menu #phone {
+	margin-top: 0px;
+}
+
+
+.footer-menu p {
+	font-size: 12px;
+	line-height: 24px;
+}
+
+
+.footer p {
+	color: #FFF;
+	text-align: center;
+}
+
+
+.footer a {
+	text-decoration: none;
+}
+
+
+.social-media {
+	text-align: center;
+	display: flex;
+	margin: auto;
+	padding-top: 20px;
+}
+
+
+
+
+.social-media img {
+	width: 36px;
+	height: 36px;
+	padding: 0px 10px;
+}
+
+
+.footer-menu {
+	display: grid;
+	text-align: center;
+	margin: auto;
+}
+
+
+.footer-menu a {
+	text-decoration: none;
+	color: #FFF;
+	font-family: gotham-light;
+	font-size: 12pt;
+	margin: 14px 0px;
+	display: block;
+	padding: 20px;
+}
+
+
+.footer-menu #button {
+    background-color: #FFF;
+    color: #238DC1;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 32px;
+    cursor: pointer;
+}
+
+
+.social-media a {
+	padding: 0px;
+}
+
+
+#privacy {
+	font-size: 12px;
+	line-height: 24px;
+	font-family: OpenSans-regular;
+	padding: 0;
+}
+
+}
+
+
+
+/* Screens over 768px wide*/
+
+@media only screen and (min-width:768px) { 
+    /* STYLES HERE */
+
+
+.footer {
+	text-align: center;
+
+}
+
+
+.footer h1 {
+	text-align: center;
+}
+
+
+.footer-menu {
+	display: inline-block;
+}
+
+
+
+.footer-menu li {
+	padding-top: 20px;
+}
+
+
+.footer-text-wrap li {
+	padding-top: 0px;
+}
+
+
+.demo-button {
+	padding: 60px 0px;
+}
+
+
+.demo-button a {
+	width: 180px;
+    background-color: #FFF;
+    color: #238DC1;
+    padding: 20px 80px;
+    margin: 30px 0;
+    border: none;
+    border-radius: 32px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: "Gotham-Light";
+    font-size: 12pt;
+}
+
+
+.footer-text-wrap {
+	display: inline-flex;
+}
+
+
+.social-media {
+	text-align: center;
+	display: inline-flex;
+	margin: auto;
+}
+
+
+.social-media a {
+	padding: 0px;
+}
+
+
+}
+
+
+
+/* Screens over 1024px wide*/
+
+@media only screen and (min-width:1024px) { 
+
+
+.footer {
+	background-color: #238DC1;
+	background-position: center;
+	width: 100%;
+	align-content: center;
+	justify-content: center;
+	clear: both;
+	padding: 60px 0px;
+	text-align: center;
+
+}
+
+
+.footer h1 {
+	text-align: center;
+}
+
+
+.footer p {
+	color: #FFF;
+	text-align: center;
+}
+
+
+.social-media {
+	text-align: center;
+}
+
+
+.social-media a {
+	margin: 0px 0px;
+}
+
+
+.footer-menu {
+	display: inline-block;
+	text-align: center;
+	margin: auto;
+}
+
+
+.demo-button {
+	margin: auto;
+	padding: 60px 0px;
+	text-align: center;
+
+}
+
+.demo-button a {
+	width: 180px;
+    background-color: #FFF;
+    color: #238DC1;
+    padding: 20px 80px;
+    margin: 30px 0;
+    border: none;
+    border-radius: 32px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: "Gotham-Light";
+    font-size: 12pt;
+}
+
+
+    }
+
+
+
+/* Screens over 1440px wide*/
+
+@media only screen and (min-width:1440px) { 
+
+    .footer {
+	padding: 40px 0px;
+}
+
+}
+
+
+    }

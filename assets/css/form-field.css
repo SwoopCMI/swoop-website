@@ -1,0 +1,218 @@
+/* form-field section starts*/
+
+
+/* Screens over 320px wide*/
+
+@media only screen and (min-width:320px) {
+
+
+.form-field-wrap {
+	background-color: #F9F9F9;
+	background-position: center;
+	width: 100%;
+	align-content: center;
+	justify-content: center;
+	clear: both;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+
+.form-field-wrap h1 {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+
+.form-field-wrap h3 {
+	color: #4A4A4A;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+
+.form {
+	text-align: center;
+	display: inline-block;
+    padding: 0px 20px;
+    margin: auto;
+}
+
+
+input[type=text], select {
+    padding: 20px 20px;
+    margin: 12px 0;
+    display: inline-block;
+    border: 1px solid #9B9B9B;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: "Gotham-Light";
+    font-size: 16px;
+    color: #9B9B9B;
+    -webkit-appearance: none;
+    
+}
+
+
+input[type=submit] {
+    background-color: #238DC1;
+    color: white;
+    padding: 20px 20px;
+    margin: 30px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Gotham-Light";
+    font-size: 16px;
+    width: 100%;
+    -webkit-appearance: none;
+}
+
+
+input[type=large-text], select {
+    padding: 20px 20px 170px 20px;
+    margin: 12px 0;
+    display: inline-block;
+    border: 1px solid #9B9B9B;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: "Gotham-Light";
+    font-size: 16px;
+    color: #9B9B9B;
+    -webkit-appearance: none;
+}
+
+
+.label-wrap {
+	display: inline-grid;
+	text-align: center;
+	padding-top: 10px;
+    width: 100%;
+    *display: inline;
+}
+
+
+label {
+	padding-left: 20px;
+    text-align: left;
+    font-family: "Gotham-Light";
+    font-size: 12px;
+    color: #4A4A4A;
+}
+
+
+}
+
+
+/* Screens over 768px wide*/
+
+@media only screen and (min-width:768px) { 
+    /* STYLES HERE */
+
+
+
+.form-field-wrap h1 {
+	text-align: center;
+}
+
+
+.form-field-wrap h3 {
+	text-align: center;
+}
+
+
+input[type=submit] {
+    width: 600px;
+}
+
+
+
+.label-wrap {
+	font-size: 14px;
+    width: 600px;
+}
+
+label {
+    font-size: 14px;
+}
+
+
+}
+
+
+
+/* Screens over 1024px wide*/
+
+@media only screen and (min-width:1024px) { 
+    /* STYLES HERE */
+
+
+.form {
+	text-align: center;
+	display: grid;
+    width: 800px;
+}
+
+.form-field-wrap h1 {
+    font-size: 36px;
+    line-height: 72px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+
+input[type=text], select {
+    width: 600px;
+}
+
+
+input[type=submit] {
+    width: 600px;
+    margin: 40px 0px;
+}
+
+
+
+label {
+	padding-left: 20px;
+    font-size: 14px;
+}
+
+
+.form-field-wrap {
+    text-align: center;
+    padding-top: 0px;
+}
+
+}
+
+
+ /* Screens over 1440px wide*/
+
+@media only screen and (min-width:1440px) { 
+    /* STYLES HERE */
+
+
+.form-field-wrap {
+    text-align: center;
+}
+
+
+.form-field-wrap h1 {
+	font-size: 42px;
+	line-height: 84px;
+	text-align: center;
+}
+
+
+.form-field-wrap h3 {
+	color: #4A4A4A;
+	text-align: center;
+}
+
+
+.form {
+	width: 800px;
+}
+
+}
