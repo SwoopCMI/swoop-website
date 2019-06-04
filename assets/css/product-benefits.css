@@ -144,6 +144,10 @@
 
 @media only screen and (min-width:1024px) {
 
+
+
+
+
 .bullet-master {
 	display: inline-block;
 	width: 900px;
@@ -203,6 +207,59 @@
 /* Screens over 1440px wide*/
 
 @media only screen and (min-width:1440px) {
+
+.benefits-container {
+  display: grid;
+  height: 630px;
+  grid-template-columns: 0.25fr 1.5fr 0.25fr;
+  grid-template-rows: auto;
+  background: #FFF;
+  margin: 20px;
+}
+
+.benefits-item-1 {
+  width: 100%;
+  height: 100%;
+  background: #FFF;
+}
+
+.benefits-item-2 {
+  width: 100%;
+  height: 100%;
+  background: #FFF;
+}
+
+.benefits-item-2 h1{
+padding-top: 60px;
+}
+
+.benefits-item-3 {
+  width: 100%;
+  height: 100%;
+  background: #FFF;
+}
+
+.benefits-section {
+	width: 920px;
+	text-align: center;
+}
+
+.benefits-tick-icon {
+	float: left;
+	padding-top: 40px;
+	padding-left: 60px;
+}
+
+.benefits-p {
+	float: left;
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.benefits-p p {
+	font-size: 24px;
+}
 
 
 .bullet-master {

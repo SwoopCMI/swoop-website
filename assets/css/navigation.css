@@ -17,10 +17,10 @@
 }
 
 
-.nav-swoop-logo {
+.nav-colateral-logo {
   position: absolute;
   top: 6px;
-  left: 10px;
+  left: 8px;
 }
 
 
@@ -41,9 +41,9 @@
 
 
 .nav-menu li {
-	font-family: "Gotham-Light", sans-serif;
+	font-family: "Gotham-Bold", sans-serif;
 	font-size: 14px;
-	color: #060300;
+	color: #FFF;
 	text-decoration: none;
 }
 
@@ -137,7 +137,7 @@
 	cursor: pointer;
 	width: 200px;
 	margin: auto;
-	font-family: "Gotham-Light";
+	font-family: "Gotham-Bold";
 }
 
 
@@ -161,7 +161,7 @@
 }
 
 
-.nav-swoop-logo {
+.nav-colateral-logo {
   top: 10px;
 }
 
@@ -190,7 +190,7 @@
 
 
 .nav-menu .book-a-demo #button {
-	background-color: #238DC1;
+	background-color: #EA5B2F;
 	color: #FFF;
 	cursor: pointer;
 	padding: 5px 10px;
@@ -220,9 +220,9 @@
 }
 
 
-.nav-swoop-logo {
+.nav-colateral-logo {
   top: 14px;
-  left: 14px;
+  left: 88px;
 }
 
 
@@ -247,8 +247,8 @@
 
 
 .nav-menu-1024 li {
-	font-family: "Gotham-Light", sans-serif;
-	font-size: 16px;
+	font-family: "Gotham-Bold", sans-serif;
+	font-size: 18px;
 	float: left;
 	margin: 0px 24px;
 	text-align: center;
@@ -258,7 +258,7 @@
 
 .nav-menu-1024 a {
 	text-decoration: none;
-	color: #060300;
+	color: #484848;
 }
 
 
@@ -275,7 +275,7 @@
 
 
 #button {
-	background-color: #238DC1;
+	background-color: #EA5B2F;
 	color: #FFF;
 	border-radius: 32px;
 	cursor: pointer;

@@ -28,7 +28,6 @@
 .product-title {
 	float: left;
 	padding-left: 20px;
-	width: 60%;
 	margin-top: -8px;
 }
 
@@ -41,8 +40,8 @@
 
 
 .product-p {
-	clear: both;
 	padding-top: 10px;
+	padding-left: 92px;
 }
 
 
@@ -116,31 +115,31 @@
 
 
 .product-p p {
-	text-align: center;
+	text-align: left;
 }
 
 
 .product-icon {
-	float: none;
-	text-align: center;
-	padding-bottom: 10px;
+	float: left;
+	text-align: left;
+	height: 220px;
 }
 
 
 .product-title {
 	float: left;
-	padding-left: 0px;
-	width: 100%;
+	padding-left: 20px;
+}
+
+.product-title h2 {
+	font-family: "Gotham-Bold";
+	font-size: 24px;
+	color: #36B8C2;
 }
 
 
 .colateral-products {
 	padding: 80px;
-}
-
-
-.colateral-products h1 {
-	line-height: 72px;
 }
 
 
@@ -154,11 +153,6 @@
 @media only screen and (min-width:1440px) {
 
 
-.colateral-products h1 {
-	font-size: 42px;
-	line-height: 84px;
-	text-align: center;
-}
 
 
 .colateral-products {
@@ -168,8 +162,9 @@
 
 
 .product-wrap {
-	padding: 60px 100px;
-	width: 350px;
+	padding: 100px 50px 20px 50px;
+	width: 490px;
+	display: inline-block;
 }
 
 }

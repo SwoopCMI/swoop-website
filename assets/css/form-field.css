@@ -18,12 +18,6 @@
 }
 
 
-.form-field-wrap h1 {
-	padding-left: 40px;
-	padding-right: 40px;
-}
-
-
 .form-field-wrap h3 {
 	color: #4A4A4A;
 	padding-left: 40px;
@@ -153,13 +147,6 @@ label {
     width: 800px;
 }
 
-.form-field-wrap h1 {
-    font-size: 36px;
-    line-height: 72px;
-    text-align: center;
-    padding-top: 60px;
-}
-
 
 input[type=text], select {
     width: 600px;
@@ -197,12 +184,6 @@ label {
     text-align: center;
 }
 
-
-.form-field-wrap h1 {
-	font-size: 42px;
-	line-height: 84px;
-	text-align: center;
-}
 
 
 .form-field-wrap h3 {
