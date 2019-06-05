@@ -4,41 +4,10 @@
     @import 'navigation.css';
     @import 'intro.css';
     @import 'generic.css';
-    @import 'challenges.css';
-    @import 'software.css';
-    @import 'colateral.css';
-    @import 'demo.css';
-    @import 'customers.css';
     @import 'form-field.css';
     @import 'footer.css';
     @import 'product-intro.css';
     @import 'product-video.css';
-    @import 'product-info.css';
     @import 'product-benefits.css';
     @import 'product-breakdown.css';
-    @import 'contact-intro.css';
-    @import 'contact-message.css';
-    @import 'contact-address.css';
-    @import 'contact-phone.css';
-    @import 'about-intro.css';
-    @import 'callout.css';
-    @import 'about-statistics.css';
-    @import 'about-help.css';
-    @import 'about-mission.css';
-    @import 'demo-page.css';
     @import 'what-is-colateral.css';
-
-    /* 	Old links here for reference
-
-    <link rel="stylesheet" type="text/css" href="css/navigation.css" />
-    <link rel="stylesheet" type="text/css" href="css/intro.css" />
-    <link rel="stylesheet" type="text/css" href="css/generic.css" />
-    <link rel="stylesheet" type="text/css" href="css/challenges.css" />
-    <link rel="stylesheet" type="text/css" href="css/software.css" />
-    <link rel="stylesheet" type="text/css" href="css/colateral.css" />
-    <link rel="stylesheet" type="text/css" href="css/demo.css" />
-    <link rel="stylesheet" type="text/css" href="css/customers.css" />
-    <link rel="stylesheet" type="text/css" href="css/form-field.css" />
-
-    */
-

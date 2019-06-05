@@ -1,105 +1,58 @@
 /* Product-intro section starts*/
 
-
 /* Screens over 320px wide*/
 
 @media only screen and (min-width:320px) {
+    .product-container {
+        background: #FFF;
+    }
 
+    .product-intro-text {
+        padding-top: 120px;
+    }
+
+    .product-intro-text-alt {
+        color: #36B8C2;
+        font-family: "Gotham-Bold";
+    }
+
+    .isometric-container {
+        text-align: center;
+        position: relative;
+        top: 4px;
+    }
+
+    .isometric-container img {
+        width: 80%;
+    }
+
+    .subscribe-button {
+        text-align: center;
+        padding-top: 60px;
+        z-index: 1;
+        position: relative;
+    }
+
+    .subscribe-button #button {
+        text-decoration: none;
+        padding: 15px 50px;
+    }
 }
 
 
 /* Screens over 768px wide*/
 
 @media only screen and (min-width:768px) {
-
+    .isometric-container img {
+        width: 60%;
+    }
 }
 
 
 /* Screens over 1024px wide*/
 
 @media only screen and (min-width:1024px) {
-
-
-.product-container {
-  display: grid;
-  height: 705px;
-  grid-template-columns: 0.5fr 1fr 0.5fr;
-  grid-template-rows: auto;
-  background: #FFF;
+    .isometric-container img {
+        width: 50%;
+    }
 }
-
-.product-intro-grid-1 {
-  width: 100%;
-  height: 100%;
-}
-
-.product-intro-grid-2 {
-  width: 100%;
-  height: 100%;
-}
-
-.product-intro-grid-3 {
-  width: 100%;
-  height: 100%;
-}
-
-.product-intro-text {
-	padding-top: 162px;
-
-}
-
-
-.product-intro-text-alt {
-	font-size: 54px;
-	color: #36B8C2;
-	font-family: "Gotham-Bold";
-	line-height: 0.7;
-	
-
-}
-
-.isometric-container {
-	text-align: center;
-	position: relative;
-	top: -70px;
-
-
-}
-
-.isometric-container img {
-	width: 640px;
-
-
-}
-
-.subscribe-button {
-	text-align: center;
-	padding-top: 60px;
-	z-index: 1;
-	position: relative;
-}
-
-.subscribe-button #button {
-	text-decoration: none;
-	padding: 20px 40px;
-
-}
-
-
-
-
-/* Screens over 1440px wide*/
-
-@media only screen and (min-width:1440px) {
-
-
-
-
-
-
-
-/* Screens over 1700px wide*/
-
-@media only screen and (min-width:1700px) {
-
-

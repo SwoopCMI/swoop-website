@@ -1,65 +1,58 @@
 /* What is colateral section starts*/
 
-
 /* Screens over 320px wide*/
 
 @media only screen and (min-width:320px) {
+    .colateral-container {
+        background: #F2F2F2;
+    }
 
+    .what-is-colateral-intro-text {
+        padding-top: 90px;
+        display: block;
+        margin: auto;
+        width: 85%;
+    }
+
+    h1 span {
+        font-family: "Gotham-Bold";
+        color: #EA5B2F;
+    }
+
+    .arrow {
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+
+    .arrow p {
+        font-family: "Gotham-Bold";
+    }
+
+    .arrow img {
+        padding-top: 20px;
+        padding-right: 10px;
+    }
+
+    .arrow-content {
+        display: inline-block;
+    }
 }
 
 
 /* Screens over 768px wide*/
 
 @media only screen and (min-width:768px) {
+    .what-is-colateral-intro-text {
+        width: 50%;
+    }
 
-}
+    .arrow {
+        text-align: right;
+    }
 
-
-
-/* Screens over 1024px wide*/
-
-@media only screen and (min-width:1024px) {
-
-
-
-
-
-
-/* Screens over 1440px wide*/
-
-@media only screen and (min-width:1440px) {
-
-
-
-.colateral-container {
-  display: grid;
-  height: 930px;
-  grid-template-columns: 0.5fr 1fr 0.5fr;
-  grid-template-rows: auto;
-  background: #F2F2F2;
-}
-
-.what-is-colateral-intro-text {
-	padding-top: 90px;
-	text-align: center;
-}
-
-.h1-orange {
-	font-family: "Gotham-Bold";
-	color: #EA5B2F;
-
-}
-
-
-.arrow-icon {
-	padding-top: 20px;
-	padding-right: 10px;
-	float: right;
-}
-
-.arrow-text {
-	float: right;
-
-}
-
+    .arrow-text {
+        margin-right: 0px;
+    }
 }

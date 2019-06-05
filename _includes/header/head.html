@@ -13,13 +13,27 @@
   gtag('config', 'UA-115449380-1');
 </script>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 <script id="_agile_min_js" async type="text/javascript" src="https://weareswoop.agilecrm.com/stats/min/agile-min.js"> </script>
 <script type="text/javascript" >
 var Agile_API = Agile_API || {}; Agile_API.on_after_load = function(){_agile.set_account('gm35p1g349if9s1bvmcaou5pph', 'weareswoop');
 _agile.track_page_view();};
 </script>
 
+<script type="text/javascript">
+    $(document).ready ( function()
+    {
+        $('li a, .subscribe-button a').click(function(event){
+            event.preventDefault();
 
+            var offset=$( $(this).attr('href') ).offset().top
+            var padding= parseInt( $( $(this).attr('href') ).css('paddingTop').replace ('px',''))+60;
+            $('html, body').animate(
+                {'scrollTop':offset - padding }
+            );
+        });
+    });
+</script>
 
     <title>Colateral</title>
     <link rel="stylesheet" type="text/css" href="assets/css/swoop-website-css.css"/>

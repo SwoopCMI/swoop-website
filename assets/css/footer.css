@@ -69,18 +69,18 @@
 .footer-menu a {
 	text-decoration: none;
 	color: #FFF;
-	font-family: gotham-light;
+	font-family: "Gotham-Bold";
 	font-size: 12pt;
 	margin: 14px 0px;
 	display: block;
-	padding: 20px;
+	padding: 8px;
 }
 
 
 .footer-menu #button {
     background-color: #FFF;
     color: #36B8C2;
-    padding: 20px 40px;
+    padding: 15px 20px;
     border: none;
     border-radius: 32px;
     cursor: pointer;
@@ -105,7 +105,7 @@
 
 /* Screens over 768px wide*/
 
-@media only screen and (min-width:768px) { 
+@media only screen and (min-width:768px) {
     /* STYLES HERE */
 
 
@@ -151,7 +151,7 @@
     border-radius: 32px;
     cursor: pointer;
     text-decoration: none;
-    font-family: "Gotham-Light";
+    font-family: "Gotham-Bold";
     font-size: 12pt;
 }
 
@@ -179,7 +179,7 @@
 
 /* Screens over 1024px wide*/
 
-@media only screen and (min-width:1024px) { 
+@media only screen and (min-width:1024px) {
 
 
 .footer {
@@ -240,7 +240,7 @@
     border-radius: 32px;
     cursor: pointer;
     text-decoration: none;
-    font-family: "Gotham-Light";
+    font-family: "Gotham-Bold";
     font-size: 12pt;
 }
 
@@ -251,7 +251,7 @@
 
 /* Screens over 1440px wide*/
 
-@media only screen and (min-width:1440px) { 
+@media only screen and (min-width:1440px) {
 
     .footer {
 	padding: 40px 0px;

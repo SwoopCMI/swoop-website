@@ -4,167 +4,96 @@
 /* Screens over 320px wide*/
 
 @media only screen and (min-width:320px) {
+	.product-breakdown-wrap {
+		background-color: #F9F9F9;
+		width: 100%;
+	}
 
-.product-breakdown-wrap {
-	background-color: #F9F9F9;
-	width: 100%;
+
+	.colateral-products {
+		padding: 40px;
+	}
+
+
+	.product-wrap {
+		padding-top: 60px;
+	}
+
+
+	.product-icon {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.product-title {
+		margin-top: -8px;
+		text-align: center;
+	}
+
+
+	.product-title h2 {
+		margin: 0px;
+		font-family: "Gotham-Bold";
+		color: #36B8C2;
+	}
+
+
+	.production-icon #campaign-builder img {
+		width: 42px;
+		height: 31px;
+	}
+
+
+	.production-icon #campaign-manager img {
+		width: 42px;
+		height: 30px;
+	}
+
+
+	.production-icon #campaign-viewer img {
+		width: 41px;
+		height: 43px;
+	}
+
+
+	.production-icon #shop-viewer img {
+		width: 33px;
+		height: 35px;
+	}
+
+
+	.production-icon #survey-builder img {
+		width: 33px;
+		height: 35px;
+	}
 }
-
-
-.colateral-products {
-	padding: 40px;
-}
-
-
-.product-wrap {
-	padding-top: 60px;
-}
-
-
-.product-icon {
-	float: left;
-}
-
-.product-title {
-	float: left;
-	padding-left: 20px;
-	margin-top: -8px;
-}
-
-
-.product-title h2 {
-	margin: 0px;
-	font-family: "Gotham-Light";
-	color: #4A4A4A;
-}
-
-
-.product-p {
-	padding-top: 10px;
-	padding-left: 92px;
-}
-
-
-.production-icon #campaign-builder img {
-	width: 42px;
-	height: 31px;
-}
-
-
-.production-icon #campaign-manager img {
-	width: 42px;
-	height: 30px;
-}
-
-
-.production-icon #campaign-viewer img {
-	width: 41px;
-	height: 43px;
-}
-
-
-.production-icon #shop-viewer img {
-	width: 33px;
-	height: 35px;
-}
-
-
-.production-icon #survey-builder img {
-	width: 33px;
-	height: 35px;
-}
-
-
-}
-
-
-
 
 /* Screens over 768px wide*/
 
 @media only screen and (min-width:768px) {
-
-.colateral-products {
-	padding: 60px;
-}
-
-
-.product-title {
-	padding-left: 20px;
-}
-
-}
+	.colateral-products {
+		padding: 60px;
+	}
 
 
-
-
-/* Screens over 1024px wide*/
-
-@media only screen and (min-width:1024px) {
-
-.product-breakdown-wrap {
-	text-align: center;
-}
-
-
-.product-wrap {
-	width: 340px;
-	display: inline-block;
-	padding: 40px;
-}
-
-
-.product-p p {
-	text-align: left;
-}
-
-
-.product-icon {
-	float: left;
-	text-align: left;
-	height: 220px;
-}
-
-
-.product-title {
-	float: left;
-	padding-left: 20px;
-}
-
-.product-title h2 {
-	font-family: "Gotham-Bold";
-	font-size: 24px;
-	color: #36B8C2;
-}
-
-
-.colateral-products {
-	padding: 80px;
-}
-
+	.product-title {
+		padding-left: 20px;
+	}
 
 }
-
-
-
 
 /* Screens over 1440px wide*/
 
 @media only screen and (min-width:1440px) {
+	.colateral-products {
+		width: 1200px;
+		margin: auto;
+	}
 
 
-
-
-.colateral-products {
-	width: 1200px;
-	margin: auto;
-}
-
-
-.product-wrap {
-	padding: 100px 50px 20px 50px;
-	width: 490px;
-	display: inline-block;
-}
-
+	.product-wrap {
+		padding: 100px 50px 20px 50px;
+		width: 490px;
+		display: inline-block;
+	}
 }

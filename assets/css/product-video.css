@@ -4,73 +4,34 @@
 /* Screens over 320px wide*/
 
 @media only screen and (min-width:320px) {
+  .auto-resizable-iframe {
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    padding-top: 40px;
+  }
 
-
-
-.auto-resizable-iframe {
-  width: 100%;
-  height: 100%;
+  .auto-resizable-iframe iframe {
+    width: 100%;
+    height: 100%;
+  }
 }
 
-.auto-resizable-iframe > div {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0px;
-}
-
-.auto-resizable-iframe iframe {
-  width: 100%;
-  height: 100%;
-}
-
-
-}
-
-
-
-
-/* Screens over 768px wide*/
+/* Screens over 768pxwide*/
 
 @media only screen and (min-width:768px) {
-
-.video-wrap {
-	text-align: center;
+  .auto-resizable-iframe {
+    height: 350px;
+    width: 80%;
+  }
 }
 
-.auto-resizable-iframe {
-  max-width: 640px;
-}
-
-
-}
-
-
-/* Screens over 1024px wide*/
+/* Screens over 1024pxwide*/
 
 @media only screen and (min-width:1024px) {
-
-.video-wrap {
-	text-align: center;
-  padding-top: 80px;
-  height: 420px;
+  .auto-resizable-iframe {
+    height: 500px;
+    width: 50%;
+  }
 }
 
-.auto-resizable-iframe {
-  max-width: 742px;
-  margin: 0px auto;
-}
-
-
-}
-
-
-/* Screens over 1440px wide*/
-
-@media only screen and (min-width:1440px) {
-
-.auto-resizable-iframe {
-  max-width: 1280px;
-  margin: 0px auto;
-}
-
-}

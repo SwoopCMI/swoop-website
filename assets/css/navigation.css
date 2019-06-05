@@ -19,14 +19,18 @@
 
 .nav-colateral-logo {
   position: absolute;
-  top: 6px;
-  left: 8px;
+  top: 10px;
+  left: 10px;
+}
+
+.nav-colateral-logo img {
+    width: 150px;
 }
 
 
 .nav-menu {
 	position: absolute;
-	top: 10px;
+	top: 14px;
 	right: 20px;
 	display: inline-block;
 }
@@ -76,7 +80,7 @@
     z-index: 101;
     top: 0;
     right: 0;
-    background-color: #238DC1;
+    background-color: #36B8C2;
     overflow-x: hidden;
     transition: 0.5s;
 }
@@ -131,13 +135,15 @@
 
 
 #button {
-	background-color: #FFF;
-	color: #238DC1;
+	background-color: #EA5B2F;
+    color: #FFF;
 	border-radius: 32px;
 	cursor: pointer;
 	width: 200px;
 	margin: auto;
-	font-family: "Gotham-Bold";
+	font-family: "Gotham-Light";
+    font-size: 16px;
+    padding: 15px 15px;
 }
 
 
@@ -152,12 +158,12 @@
 
 /* Screens over 768px wide*/
 
-@media only screen and (min-width:768px) { 
+@media only screen and (min-width:768px) {
     /* STYLES HERE */
 
 .navigation-bar {
 	height: 50px;
-	
+
 }
 
 
@@ -212,7 +218,7 @@
 
 /* Screens over 1024px wide*/
 
-@media only screen and (min-width:1024px) { 
+@media only screen and (min-width:1024px) {
     /* STYLES HERE */
 
 .navigation-bar {
@@ -242,7 +248,7 @@
 	display: inline-block;
 	position: absolute;
 	top: 4px;
-	right: 0px;	
+	right: 0px;
 }
 
 
@@ -264,7 +270,7 @@
 
 .nav-menu-1024 li:hover {
 	border-bottom: solid;
-	border-color: #135B7E;
+	border-color: #36B8C2;
 	height: 38px;
 }
 
@@ -292,7 +298,7 @@
 
 /* Screens under 1440px wide*/
 
-@media only screen and (min-width:1440px) { 
+@media only screen and (min-width:1440px) {
     /* STYLES HERE */
 
 
