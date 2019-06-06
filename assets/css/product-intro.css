@@ -33,9 +33,14 @@
         position: relative;
     }
 
-    .subscribe-button #button {
+    .subscribe-button .button {
         text-decoration: none;
         padding: 15px 50px;
+        background-color: #EA5B2F;
+        color: #FFF;
+        border-radius: 32px;
+        cursor: pointer;
+        font-family: "Gotham-Bold";
     }
 }
 

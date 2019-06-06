@@ -19,12 +19,6 @@
 	padding: inherit;
 }
 
-
-.footer-menu #phone {
-	margin-top: 0px;
-}
-
-
 .footer-menu p {
 	font-size: 12px;
 	line-height: 24px;
@@ -77,13 +71,16 @@
 }
 
 
-.footer-menu #button {
+.footer-menu .button {
     background-color: #FFF;
     color: #36B8C2;
-    padding: 15px 20px;
+    padding: 13px 13px;
     border: none;
     border-radius: 32px;
     cursor: pointer;
+    text-decoration: none;
+    width: 70%;
+    margin: auto;
 }
 
 

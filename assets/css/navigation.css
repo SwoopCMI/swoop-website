@@ -57,6 +57,11 @@
 }
 
 
+.nav-menu-1024 .phone {
+    font-family: "Gotham-Light";
+}
+
+
 .mobile-header-full {
 	display: none;
 }
@@ -127,14 +132,20 @@
 	list-style-type: none;
 }
 
-
-#phone {
-	font-family: "Gotham-Light";
-	margin-top: 40px;
+.overlay .button {
+    text-decoration: none;
+    padding: 13px 13px;
+    background-color: #EA5B2F;
+    color: #FFF;
+    border-radius: 32px;
+    cursor: pointer;
+    font-family: "Gotham-Bold";
+    width: 70%;
+    margin: auto;
 }
 
 
-#button {
+.nav-menu-1024 .button {
 	background-color: #EA5B2F;
     color: #FFF;
 	border-radius: 32px;
@@ -166,6 +177,10 @@
 
 }
 
+.nav-colateral-logo img {
+    width: 100%;
+}
+
 
 .nav-colateral-logo {
   top: 10px;
@@ -195,7 +210,7 @@
 }
 
 
-.nav-menu .book-a-demo #button {
+.nav-menu .book-a-demo .button {
 	background-color: #EA5B2F;
 	color: #FFF;
 	cursor: pointer;
@@ -280,18 +295,13 @@
 }
 
 
-#button {
+.nav-menu-1024 .button {
 	background-color: #EA5B2F;
 	color: #FFF;
 	border-radius: 32px;
 	cursor: pointer;
 	padding: 8px 20px;
 }
-
-#phone {
-	font-family: "Gotham-Light"
-}
-
 
 }
 
