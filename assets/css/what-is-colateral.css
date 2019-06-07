@@ -1,0 +1,58 @@
+/* What is colateral section starts*/
+
+/* Screens over 320px wide*/
+
+@media only screen and (min-width:320px) {
+    .colateral-container {
+        background: #F2F2F2;
+    }
+
+    .what-is-colateral-intro-text {
+        padding-top: 90px;
+        display: block;
+        margin: auto;
+        width: 85%;
+    }
+
+    h1 span {
+        font-family: "Gotham-Bold";
+        color: #EA5B2F;
+    }
+
+    .arrow {
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+
+    .arrow p {
+        font-family: "Gotham-Bold";
+    }
+
+    .arrow img {
+        padding-top: 20px;
+        padding-right: 10px;
+    }
+
+    .arrow-content {
+        display: inline-block;
+    }
+}
+
+
+/* Screens over 768px wide*/
+
+@media only screen and (min-width:768px) {
+    .what-is-colateral-intro-text {
+        width: 50%;
+    }
+
+    .arrow {
+        text-align: right;
+    }
+
+    .arrow-text {
+        margin-right: 0px;
+    }
+}

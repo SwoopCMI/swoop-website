@@ -18,16 +18,8 @@
 }
 
 
-.form-field-wrap h1 {
-	padding-left: 40px;
-	padding-right: 40px;
-}
-
-
-.form-field-wrap h3 {
-	color: #4A4A4A;
-	padding-left: 40px;
-	padding-right: 40px;
+.form-field-wrap span {
+	color: #36B8C2;
 }
 
 
@@ -40,30 +32,30 @@
 
 
 input[type=text], select {
-    padding: 20px 20px;
+    padding: 15px 15px;
     margin: 12px 0;
     display: inline-block;
-    border: 1px solid #9B9B9B;
+    border: none;
     border-radius: 5px;
     box-sizing: border-box;
     font-family: "Gotham-Light";
-    font-size: 16px;
+    font-size: 12px;
     color: #9B9B9B;
     -webkit-appearance: none;
-    
+
 }
 
 
 input[type=submit] {
-    background-color: #238DC1;
+    background-color: #EA5B2F;
     color: white;
-    padding: 20px 20px;
+    padding: 15px 15px;
     margin: 30px 0;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-family: "Gotham-Light";
-    font-size: 16px;
+    font-family: "Gotham-Bold";
+    font-size: 12px;
     width: 100%;
     -webkit-appearance: none;
 }
@@ -73,15 +65,14 @@ input[type=large-text], select {
     padding: 20px 20px 170px 20px;
     margin: 12px 0;
     display: inline-block;
-    border: 1px solid #9B9B9B;
+    border: none;
     border-radius: 5px;
     box-sizing: border-box;
     font-family: "Gotham-Light";
-    font-size: 16px;
+    font-size: 12px;
     color: #9B9B9B;
     -webkit-appearance: none;
 }
-
 
 .label-wrap {
 	display: inline-grid;
@@ -93,9 +84,9 @@ input[type=large-text], select {
 
 
 label {
-	padding-left: 20px;
+	padding-left: 5px;
     text-align: left;
-    font-family: "Gotham-Light";
+    font-family: "Gotham-Bold";
     font-size: 12px;
     color: #4A4A4A;
 }
@@ -106,7 +97,7 @@ label {
 
 /* Screens over 768px wide*/
 
-@media only screen and (min-width:768px) { 
+@media only screen and (min-width:768px) {
     /* STYLES HERE */
 
 
@@ -143,7 +134,7 @@ label {
 
 /* Screens over 1024px wide*/
 
-@media only screen and (min-width:1024px) { 
+@media only screen and (min-width:1024px) {
     /* STYLES HERE */
 
 
@@ -151,13 +142,6 @@ label {
 	text-align: center;
 	display: grid;
     width: 800px;
-}
-
-.form-field-wrap h1 {
-    font-size: 36px;
-    line-height: 72px;
-    text-align: center;
-    padding-top: 60px;
 }
 
 
@@ -189,7 +173,7 @@ label {
 
  /* Screens over 1440px wide*/
 
-@media only screen and (min-width:1440px) { 
+@media only screen and (min-width:1440px) {
     /* STYLES HERE */
 
 
@@ -197,12 +181,6 @@ label {
     text-align: center;
 }
 
-
-.form-field-wrap h1 {
-	font-size: 42px;
-	line-height: 84px;
-	text-align: center;
-}
 
 
 .form-field-wrap h3 {
@@ -213,6 +191,23 @@ label {
 
 .form {
 	width: 800px;
+}
+
+input[type=text], select {
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+
+input[type=submit] {
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+
+input[type=large-text], select {
+    margin: 16px 0;
+    font-size: 16px;
 }
 
 }

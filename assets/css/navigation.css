@@ -17,16 +17,20 @@
 }
 
 
-.nav-swoop-logo {
+.nav-colateral-logo {
   position: absolute;
-  top: 6px;
+  top: 10px;
   left: 10px;
+}
+
+.nav-colateral-logo img {
+    width: 150px;
 }
 
 
 .nav-menu {
 	position: absolute;
-	top: 10px;
+	top: 14px;
 	right: 20px;
 	display: inline-block;
 }
@@ -41,15 +45,20 @@
 
 
 .nav-menu li {
-	font-family: "Gotham-Light", sans-serif;
+	font-family: "Gotham-Bold", sans-serif;
 	font-size: 14px;
-	color: #060300;
+	color: #FFF;
 	text-decoration: none;
 }
 
 
 .nav-menu-1024 {
 	display: none;
+}
+
+
+.nav-menu-1024 .phone {
+    font-family: "Gotham-Light";
 }
 
 
@@ -76,7 +85,7 @@
     z-index: 101;
     top: 0;
     right: 0;
-    background-color: #238DC1;
+    background-color: #36B8C2;
     overflow-x: hidden;
     transition: 0.5s;
 }
@@ -123,21 +132,29 @@
 	list-style-type: none;
 }
 
-
-#phone {
-	font-family: "Gotham-Light";
-	margin-top: 40px;
+.overlay .button {
+    text-decoration: none;
+    padding: 13px 13px;
+    background-color: #EA5B2F;
+    color: #FFF;
+    border-radius: 32px;
+    cursor: pointer;
+    font-family: "Gotham-Bold";
+    width: 70%;
+    margin: auto;
 }
 
 
-#button {
-	background-color: #FFF;
-	color: #238DC1;
+.nav-menu-1024 .button {
+	background-color: #EA5B2F;
+    color: #FFF;
 	border-radius: 32px;
 	cursor: pointer;
 	width: 200px;
 	margin: auto;
 	font-family: "Gotham-Light";
+    font-size: 16px;
+    padding: 15px 15px;
 }
 
 
@@ -152,16 +169,20 @@
 
 /* Screens over 768px wide*/
 
-@media only screen and (min-width:768px) { 
+@media only screen and (min-width:768px) {
     /* STYLES HERE */
 
 .navigation-bar {
 	height: 50px;
-	
+
+}
+
+.nav-colateral-logo img {
+    width: 100%;
 }
 
 
-.nav-swoop-logo {
+.nav-colateral-logo {
   top: 10px;
 }
 
@@ -189,8 +210,8 @@
 }
 
 
-.nav-menu .book-a-demo #button {
-	background-color: #238DC1;
+.nav-menu .book-a-demo .button {
+	background-color: #EA5B2F;
 	color: #FFF;
 	cursor: pointer;
 	padding: 5px 10px;
@@ -212,7 +233,7 @@
 
 /* Screens over 1024px wide*/
 
-@media only screen and (min-width:1024px) { 
+@media only screen and (min-width:1024px) {
     /* STYLES HERE */
 
 .navigation-bar {
@@ -220,9 +241,9 @@
 }
 
 
-.nav-swoop-logo {
+.nav-colateral-logo {
   top: 14px;
-  left: 14px;
+  left: 88px;
 }
 
 
@@ -242,13 +263,13 @@
 	display: inline-block;
 	position: absolute;
 	top: 4px;
-	right: 0px;	
+	right: 0px;
 }
 
 
 .nav-menu-1024 li {
-	font-family: "Gotham-Light", sans-serif;
-	font-size: 16px;
+	font-family: "Gotham-Bold", sans-serif;
+	font-size: 18px;
 	float: left;
 	margin: 0px 24px;
 	text-align: center;
@@ -258,13 +279,13 @@
 
 .nav-menu-1024 a {
 	text-decoration: none;
-	color: #060300;
+	color: #484848;
 }
 
 
 .nav-menu-1024 li:hover {
 	border-bottom: solid;
-	border-color: #135B7E;
+	border-color: #36B8C2;
 	height: 38px;
 }
 
@@ -274,25 +295,20 @@
 }
 
 
-#button {
-	background-color: #238DC1;
+.nav-menu-1024 .button {
+	background-color: #EA5B2F;
 	color: #FFF;
 	border-radius: 32px;
 	cursor: pointer;
 	padding: 8px 20px;
 }
 
-#phone {
-	font-family: "Gotham-Light"
-}
-
-
 }
 
 
 /* Screens under 1440px wide*/
 
-@media only screen and (min-width:1440px) { 
+@media only screen and (min-width:1440px) {
     /* STYLES HERE */
 
 

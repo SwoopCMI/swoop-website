@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="52px" viewBox="0 0 73 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>campaign-builder-icon-new</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 52 73 52 73 0 0 0"></polygon>
+    </defs>
+    <g id="Options" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Version-6" transform="translate(-153.000000, -2477.000000)">
+            <g id="campaign-builder-icon-new" transform="translate(153.000000, 2477.000000)">
+                <path d="M69.9559197,49.5245819 L3.04136497,49.5245819 C2.48382287,49.5245819 2.0301411,48.968131 2.0301411,48.2830431 L2.0301411,11.9713543 L70.9698589,11.9713543 L70.9698589,48.2830431 C70.9698589,48.968131 70.5134618,49.5245819 69.9559197,49.5245819 M3.04136497,2.47541807 L69.9559197,2.47541807 C70.5134618,2.47541807 70.9698589,3.03209427 70.9698589,3.71200069 L70.9698589,9.49593623 L2.0301411,9.49593623 L2.0301411,3.71200069 C2.0301411,3.03209427 2.48382287,2.47541807 3.04136497,2.47541807 M69.9559197,0 L3.04136497,0 C1.36624966,0 0,1.66462178 0,3.71200069 L0,48.2830431 C0,50.3329001 1.36624966,52 3.04136497,52 L69.9559197,52 C71.6339766,52 73,50.3329001 73,48.2830431 L73,3.71200069 C73,1.66462178 71.6339766,0 69.9559197,0" id="Fill-1" fill="#36B8C2"></path>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-4"></g>
+                <polygon id="Fill-3" fill="#36B8C2" mask="url(#mask-2)" points="11 23 23 23 23 20 11 20"></polygon>
+                <polygon id="Fill-5" fill="#36B8C2" mask="url(#mask-2)" points="30 23 42 23 42 20 30 20"></polygon>
+                <polygon id="Fill-6" fill="#36B8C2" mask="url(#mask-2)" points="50 23 62 23 62 20 50 20"></polygon>
+                <polygon id="Fill-7" fill="#36B8C2" mask="url(#mask-2)" points="11 32 23 32 23 29 11 29"></polygon>
+                <polygon id="Fill-8" fill="#36B8C2" mask="url(#mask-2)" points="30 32 42 32 42 29 30 29"></polygon>
+                <polygon id="Fill-9" fill="#36B8C2" mask="url(#mask-2)" points="50 32 62 32 62 29 50 29"></polygon>
+                <polygon id="Fill-10" fill="#36B8C2" mask="url(#mask-2)" points="11 41 23 41 23 38 11 38"></polygon>
+                <polygon id="Fill-11" fill="#36B8C2" mask="url(#mask-2)" points="30 41 42 41 42 38 30 38"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
